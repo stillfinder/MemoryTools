@@ -1,0 +1,111 @@
+<SmartAssemblyProject ProjectId="{4d7ae4d2-0c08-49f9-88de-a9e57f66d69e}" Version="2.0">
+    <MainAssemblyFileName>.\MemoryTools.exe</MainAssemblyFileName>
+    <Configuration Name="Release">
+        <ApplicationName />
+        <Destination DestinationFileName=".\distr\MemoryTools.exe" />
+        <Assemblies>
+            <Assembly AssemblyName="fasmdll_managed, Culture=neutral, PublicKeyToken=null">
+                <Merging />
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="MemoryTools, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <ResourcesCompression Compress="1" />
+                    <MemberRefsProxy Proxy="1" />
+                    <Pruning />
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion>
+                            <Token Table="TypeDef">
+                                <Assembly>MemoryTools</Assembly>
+                                <Module>MemoryTools.exe</Module>
+                                <Name>Offset</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>MemoryTools.OffsetFinder</Namespace>
+                            </Token>
+                            <Token Table="TypeDef">
+                                <Assembly>MemoryTools</Assembly>
+                                <Module>MemoryTools.exe</Module>
+                                <Name>OffsetManager</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>MemoryTools.OffsetFinder</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>MemoryTools</Assembly>
+                                <Module>MemoryTools.exe</Module>
+                                <Name>Offset</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>MemoryTools.OffsetFinder</Namespace>
+                            </Token>
+                            <Token Table="MethodDef">
+                                <Assembly>MemoryTools</Assembly>
+                                <Module>MemoryTools.exe</Module>
+                                <OwnerNamespace>MemoryTools.OffsetFinder</OwnerNamespace>
+                                <Name>GetOffsetsFromXML</Name>
+                                <Parameters>System.String</Parameters>
+                                <OwnerType>OffsetManager</OwnerType>
+                                <ReturnType>class [MemoryTools]MemoryTools.OffsetFinder.OffsetManager</ReturnType>
+                                <Static>1</Static>
+                            </Token>
+                            <Token Table="MethodDef">
+                                <Assembly>MemoryTools</Assembly>
+                                <Module>MemoryTools.exe</Module>
+                                <OwnerNamespace>MemoryTools.OffsetFinder</OwnerNamespace>
+                                <Name>SaveOffsetsToXML</Name>
+                                <Parameters>System.String</Parameters>
+                                <ReturnType>System.Void</ReturnType>
+                                <OwnerType>OffsetManager</OwnerType>
+                            </Token>
+                        </Exclusion>
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="3" />
+                    <ResourcesPruning />
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="{smartassembly}.ResourceResolver, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="SmartAssembly.AssemblyResolver, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="SmartAssembly.HouseOfCards, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="SmartAssembly.StringsEncoding, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="SmartAssembly.Zip, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+        </Assemblies>
+        <Options>
+            <Obfuscation FieldsNameMangling="2" NameMangling="3" />
+            <ExceptionReporting Template="res:{SmartExceptions}.1033.dll" />
+            <FeatureUsageReporting Template="res:SmartUsageWithUIConsentFirstRun1033.dll" />
+            <StrongNameSigning KeyFileName=".\sn.snk" Sign="1" />
+            <OtherProtections AddMetadataStream="1" SuppressIldasm="1" />
+            <StringsEncoding Compress="1" Encode="1" UseCache="1" />
+            <OtherOptimizations />
+            <Debugging />
+        </Options>
+    </Configuration>
+</SmartAssemblyProject>

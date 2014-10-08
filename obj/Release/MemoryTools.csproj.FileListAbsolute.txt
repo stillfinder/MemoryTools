@@ -1,0 +1,10 @@
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\bin\Release\MemoryTools.exe
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\bin\Release\MemoryTools.pdb
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\bin\Release\fasmdll_managed.dll
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\bin\Release\fasmdll_managed.pdb
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\obj\Release\MemoryTools.MainForm.resources
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\obj\Release\MemoryTools.Properties.Resources.resources
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\obj\Release\MemoryTools.csproj.GenerateResource.Cache
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\obj\Release\MemoryTools.exe
+C:\Users\Ivan\Dropbox\projects\MemoryTools\MemoryTools\MemoryTools\obj\Release\MemoryTools.pdb

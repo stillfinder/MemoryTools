@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<OffsetManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Offsets>
+    <Offset>
+      <Name>LuaDoString</Name>
+      <Pattern>55 8B EC 51 FF 05 00 00 00 00 A1 00 00 00 00 89 00 00 74 00 83 3D 00 00 00 00 00 75 00 8B</Pattern>
+      <Mask>xxxxxx????x????x??x?xx?????x?x</Mask>
+      <IsPointer>false</IsPointer>
+      <Dislocation>0</Dislocation>
+      <Adresses />
+    </Offset>
+    <Offset>
+      <Name>PlayerName</Name>
+      <Pattern>0F BE 05 00 00 00 00 F7 D8 1B C0 25 00 00 00 00 C3</Pattern>
+      <Mask>xxx????xxxxx????x</Mask>
+      <IsPointer>true</IsPointer>
+      <Dislocation>3</Dislocation>
+      <Adresses />
+    </Offset>
+    <Offset>
+      <Name>CorpsePosition</Name>
+      <Pattern>F3 0F 10 0D 00 00 00 00 8B 00 00 0F 28 D8 F3</Pattern>
+      <Mask>xxxx????x??xxxx</Mask>
+      <IsPointer>true</IsPointer>
+      <Dislocation>4</Dislocation>
+      <Adresses />
+    </Offset>
+  </Offsets>
+</OffsetManager>
